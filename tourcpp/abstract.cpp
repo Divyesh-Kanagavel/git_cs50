@@ -8,7 +8,7 @@ virtual ~Container() {};
 // = 0 means that it is a pure virtual function and the function must be implemented in the derived class.
 
 //hierarchies
-
+// This class shows how abstract classes work!!!
 class Shape{
     public:
     virtual Point center() const = 0; // pure virtual function
