@@ -99,7 +99,7 @@ if(Smiley* p = dynamic_cast<Smiley*>(ps)){
 else{}
 
 }
-
+// this is used to check if the pointer to derived classes is pointing correctly.
 
 
 
