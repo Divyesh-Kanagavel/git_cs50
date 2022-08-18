@@ -8,5 +8,5 @@ print('Phone number found' + match_object.group())
 # re.compile(r'[a-z]')--> any lowercase alphabet (note the square bracket)
 # re.compile(r'[0-5.]) --> numeric digit within 0 and 5 followed by period. no need of backspace
 
-# re.compile(r'^[AEIOU]) --> not in AEIOU
+# re.compile(r'[^AEIOU]) --> not in AEIOU
  
