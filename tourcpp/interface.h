@@ -1,16 +1,15 @@
-#ifndef INTCELL_H
-#define INTCELL_H
-
-class IntCell{
-    public:
-    explicit IntCell(int initialValue=0);
-    int read() const; // accessor method
-    void write(int x);
-
-    private:
-    int storedValue;
-
+#ifndef IntCell_H
+#define IntCell_H
+/**
+* A class for simulating an integer memory cell.
+*/
+class IntCell
+{
+public:
+explicit IntCell( int initialValue = 0 );
+int read( ) const;
+void write( int x );
+private:
+int storedValue;
 };
-
 #endif
-
