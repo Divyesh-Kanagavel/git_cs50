@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/pc/Desktop/git_cs50/tourcpp/computer_vision/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DisplayVideo.dir/all
+all: CMakeFiles/cannyedge.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DisplayVideo.dir/clean
+clean: CMakeFiles/cannyedge.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DisplayVideo.dir
+# Target rules for target CMakeFiles/cannyedge.dir
 
 # All Build rule for target.
-CMakeFiles/DisplayVideo.dir/all:
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/depend
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/Desktop/git_cs50/tourcpp/computer_vision/build/CMakeFiles --progress-num=1,2 "Built target DisplayVideo"
-.PHONY : CMakeFiles/DisplayVideo.dir/all
+CMakeFiles/cannyedge.dir/all:
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/depend
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pc/Desktop/git_cs50/tourcpp/computer_vision/build/CMakeFiles --progress-num=1,2 "Built target cannyedge"
+.PHONY : CMakeFiles/cannyedge.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DisplayVideo.dir/rule: cmake_check_build_system
+CMakeFiles/cannyedge.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/Desktop/git_cs50/tourcpp/computer_vision/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayVideo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cannyedge.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pc/Desktop/git_cs50/tourcpp/computer_vision/build/CMakeFiles 0
-.PHONY : CMakeFiles/DisplayVideo.dir/rule
+.PHONY : CMakeFiles/cannyedge.dir/rule
 
 # Convenience name for target.
-DisplayVideo: CMakeFiles/DisplayVideo.dir/rule
+cannyedge: CMakeFiles/cannyedge.dir/rule
 
-.PHONY : DisplayVideo
+.PHONY : cannyedge
 
 # clean rule for target.
-CMakeFiles/DisplayVideo.dir/clean:
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/clean
-.PHONY : CMakeFiles/DisplayVideo.dir/clean
+CMakeFiles/cannyedge.dir/clean:
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/clean
+.PHONY : CMakeFiles/cannyedge.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

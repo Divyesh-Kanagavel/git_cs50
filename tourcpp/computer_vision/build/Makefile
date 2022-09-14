@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DisplayVideo
+# Target rules for targets named cannyedge
 
 # Build rule for target.
-DisplayVideo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayVideo
-.PHONY : DisplayVideo
+cannyedge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cannyedge
+.PHONY : cannyedge
 
 # fast build rule for target.
-DisplayVideo/fast:
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/build
-.PHONY : DisplayVideo/fast
+cannyedge/fast:
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/build
+.PHONY : cannyedge/fast
 
-viddisplay.o: viddisplay.cpp.o
+cannyedge.o: cannyedge.cpp.o
 
-.PHONY : viddisplay.o
+.PHONY : cannyedge.o
 
 # target to build an object file
-viddisplay.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/viddisplay.cpp.o
-.PHONY : viddisplay.cpp.o
+cannyedge.cpp.o:
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/cannyedge.cpp.o
+.PHONY : cannyedge.cpp.o
 
-viddisplay.i: viddisplay.cpp.i
+cannyedge.i: cannyedge.cpp.i
 
-.PHONY : viddisplay.i
+.PHONY : cannyedge.i
 
 # target to preprocess a source file
-viddisplay.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/viddisplay.cpp.i
-.PHONY : viddisplay.cpp.i
+cannyedge.cpp.i:
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/cannyedge.cpp.i
+.PHONY : cannyedge.cpp.i
 
-viddisplay.s: viddisplay.cpp.s
+cannyedge.s: cannyedge.cpp.s
 
-.PHONY : viddisplay.s
+.PHONY : cannyedge.s
 
 # target to generate assembly for a file
-viddisplay.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayVideo.dir/build.make CMakeFiles/DisplayVideo.dir/viddisplay.cpp.s
-.PHONY : viddisplay.cpp.s
+cannyedge.cpp.s:
+	$(MAKE) -f CMakeFiles/cannyedge.dir/build.make CMakeFiles/cannyedge.dir/cannyedge.cpp.s
+.PHONY : cannyedge.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... DisplayVideo"
-	@echo "... viddisplay.o"
-	@echo "... viddisplay.i"
-	@echo "... viddisplay.s"
+	@echo "... cannyedge"
+	@echo "... cannyedge.o"
+	@echo "... cannyedge.i"
+	@echo "... cannyedge.s"
 .PHONY : help
 
 
